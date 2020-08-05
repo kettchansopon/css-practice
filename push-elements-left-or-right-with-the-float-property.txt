@@ -1,0 +1,32 @@
+<head>
+  <style>
+    /* position:float; คือรูปแบบเดียวกับ fixed แต่ปรับให้อยู่ซ้ายขวาได้ เพื่อกปรับแต่ง aside หรือ section และปรับขนาดให้ก้อน element ที่ float อยู่ได้*/
+    #left {
+      position:float;
+      float:left;
+      width: 50%;
+    }
+    #right {
+      position:float;
+      float: right;
+      width: 40%;
+    }
+    aside, section {
+      padding: 2px;
+      background-color: #ccc;
+    }
+  </style>
+</head>
+<body>
+  <header>
+    <h1>Welcome!</h1>
+  </header>
+  <section id="left">
+    <h2>Content</h2>
+    <p>Good stuff</p>
+  </section>
+  <aside id="right">
+    <h2>Sidebar</h2>
+    <p>Links</p>
+  </aside>
+</body>

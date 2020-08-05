@@ -1,0 +1,23 @@
+<style>
+  div {
+    width: 60%;
+    height: 200px;
+    margin-top: 20px;
+  }
+
+  .first {
+    background-color: red;
+    position: absolute;
+    z-index:2; //z-index มากกว่าก็อยู่บน
+  }
+  .second {
+    background-color: blue;
+    position: absolute;
+    left: 40px;
+    top: 50px;
+    z-index: 1; //z-index น้อยกว่าก็อยู่ล่าง
+  }
+</style>
+
+<div class="first"></div>
+<div class="second"></div>
